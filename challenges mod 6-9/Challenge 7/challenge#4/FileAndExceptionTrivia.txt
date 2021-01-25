@@ -1,0 +1,90 @@
+1) File
+Which one is correct?
+open(name)
+open(filename)
+open(filename, mode)
+open(title, mode)
+3
+When you want to open a file, type in the file name WITH mode.
+1
+2) File
+What’s mode “w+” is for?
+write to and read from a text
+write a text and add it to the file
+write and append to file
+write and close the text file
+1
+“w+” mode is for write and read file, “a+” mode is for append /and read file.
+2
+3) File
+What’s the difference between pickling and shelving data?
+pickling is inputting data, while shelving is outputting data
+pickling stores in binary form, shelving stores in normal form
+pickling stores in dictionary form, shelving stores in binary form
+pickling stores stores in binary, shelving stores in dictionary
+4
+Pickle stores data in binary format, shelve also stores data in /binary format, but shelve able to work like a dictionary.
+3
+4) File
+Which one is correct?
+dump(file, object)
+dump(object, file)
+dump(object, binary)
+dump(file, binary)
+2
+dump() function writes pickled version of object to file.
+2
+5) File
+Mode “c” is for?
+Pickling access mode
+Creating access mode
+Text file access mode
+Shelving access mode
+2
+Mode c can only be accessed with shelve.
+1
+6) Exception
+What is a NameError?
+An error that’s raised when a variable or function not found
+An error that’s raised when a syntax isn’t found
+An error that’s raised when a dictionary isn’t found
+An error that’s raised when a key isn’t found
+1
+SyntaxError raised when a syntax isn’t found; KeyError raised /when a key isn’t found.
+1
+7) Exception
+What’s the use of “else” syntax in exception?
+When there’s no error
+When everything is finished
+When the code isn’t working properly
+When finished the “try” syntax
+1
+If there’re no error, python will go on to “finally” or “else” syntax.
+1
+8) Exception
+What type of error is raised when an out-of-range number of /an element is found?
+IO Error
+Type error
+Key error
+Index error
+4
+Out-of-range number of an element means an out-of-number index of /an element.
+2
+9) Exception
+Which one is correct?
+ZeroDivisionError
+ZeroModuloError
+ZeroBinaryError
+ZeroValueError
+1
+It raised when the second argument of a division or a /modulo operation is zero.
+1
+10) Exception
+What’s the difference between sync() and sys()?
+sync() make sure the data is written, sys() provides information
+sync() provides information, sys() make sure the data is written
+sync() stores a data, sys() get a data
+sync() get a data, sys() stores a data
+1
+sync() is used in shelving method, sys() is /for calling a function.
+3
